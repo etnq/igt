@@ -6,7 +6,7 @@ clear_terminal()
 
 print("Instagram Script")
 def display_list():
-    items = ["Python", "JavaScript", "C++", "Rust", "Go"]
+    items = ["Login", "Exit", "About Page", ]
     
     print("\n--- Programming Languages List ---")
     for index, item in enumerate(items, start=1):
