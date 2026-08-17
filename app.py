@@ -8,7 +8,7 @@ print("Instagram Script")
 def display_list():
     items = ["Login", "Exit", "About Page", ]
     
-    print("\n--- Programming Languages List ---")
+    print("\n--- Content ---")
     for index, item in enumerate(items, start=1):
         print(f"{index}. {item}")
     print("----------------------------------\n")
