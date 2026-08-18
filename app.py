@@ -7,8 +7,8 @@ class InstagramScript:
     def display_list(self):
         print("\n----Content---")
         for index, item in 
-    enumerate(self.items, start=1):
-        print(f"{index}.{item}")
+enumerate(self.items, start=1):
+    print(f"{index}.{item}")
 print("------------------------------\n")
 app=InstagramScript()
 app.clear_terminal()
