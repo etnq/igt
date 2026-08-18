@@ -3,7 +3,8 @@ class InstagramScript:
     def __init__(self):
         self.items=["Login", "Exit", "About Page"]
     def clear_terminal(self):
-        os.system('cls' if os.name =='nt' else 'clear')
+        os.system('cls' if os.name =='nt' 
+else 'clear')
     def display_list(self):
         print("\n----Content---")
         for index, item in 
