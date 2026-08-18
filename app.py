@@ -6,7 +6,8 @@ class InstagramScript:
         os.system('cls' if os.name =='nt' else 'clear')
     def display_list(self):
         print("\n----Content---")
-        for index, item in enumerate(self.items, start=1):
+        for index, item in 
+    enumerate(self.items, start=1):
         print(f"{index}.{item}")
 print("------------------------------\n")
 app=InstagramScript()
